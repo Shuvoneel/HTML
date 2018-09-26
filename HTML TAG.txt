@@ -1,0 +1,20 @@
+<p> </p>
+
+<i> </i> or <em> </em>
+
+<b> </b> or <strong> </strong>
+
+<sub> </sub> or <sup> </sup>
+
+<del> </del> ....delete a word
+
+<a href="shuvo.html" title="essay and photos"> </a> ....anchor tag
+a,p{
+text-decoration:none;
+color:blue;
+}
+
+<input type="text" name="FirstName" value="Mickey">.....to input data
+
+<input type="submit" value="Submit">
+
