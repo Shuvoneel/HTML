@@ -1,0 +1,22 @@
+body{
+    background: lightsteelblue;
+}
+#maindiv{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    height: auto;
+}
+.colleft{
+    width:30%;
+    height:auto;
+    float:left;
+}
+.colright{
+    width:70%;
+    height:auto;
+    float:left;
+}

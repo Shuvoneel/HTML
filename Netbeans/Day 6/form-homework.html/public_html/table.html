@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Table Making</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table{
+                width: 500px;
+                height: 300px;
+                background: black;            }
+            tr{
+                background: white;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h1> Table using colspan </h1>
+        <table>
+            <tr>
+                <td colspan="2"></td>
+                <td></td>
+                <td colspan="2"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td colspan="4"></td>
+                <td></td>
+            </tr>
+
+        </table>
+
+        <h1> Table using rowspan</h1>
+        <table>
+            <tr>
+                <td colspan="2" rowspan="2"> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"> </td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td colspan="3"> </td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+        </table>
+        
+        <h1> Header, Body & Footer</h1>
+        <table>
+            <caption> Qualified Students</caption>
+            
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>1222</td>
+                    <td>Abbsbs</td>
+                
+                </tr>
+                <tr>
+                    <td>1222</td>
+                    <td>Abbsbs</td>
+                
+                </tr>
+                <tr>
+                    <td>1222</td>
+                    <td>Abbsbs</td>
+                
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                </tr>
+            </tfoot>
+            
+        </table>
+        
+    </body>
+</html>

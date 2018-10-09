@@ -1,0 +1,45 @@
+#maindiv{
+    width: 100%;
+    height: auto;
+    background: activecaption;
+}
+.row{
+    width: 100%;
+    height: auto;
+}
+@media screen and (min-width: 769px){
+    .col-lg{
+        width: 25%;
+        height: auto;
+        float: left;
+        color: white;
+    }
+}
+@media screen and (max-width: 769px){
+    .col-md{
+        width: 50%;
+        height: auto;
+        float: left;
+        color: white;
+    }
+}
+@media screen and (max-width: 468px){
+    .col-sm{
+        width: 100%;
+        height: auto;
+        float: left;
+        color: white;
+    }
+}
+.green{
+    background: green;
+}
+.blue{
+    background: blue;
+}
+.crimson{
+    background: crimson;
+}
+.black{
+    background: black;
+}

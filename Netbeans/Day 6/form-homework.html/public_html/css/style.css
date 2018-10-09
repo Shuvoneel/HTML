@@ -1,0 +1,64 @@
+body{
+    background: activecaption;
+}
+#maindiv{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;				
+}
+.row{
+    width: 100%;
+    height: auto;
+}
+.div1{width: 100%;
+      height: 300px;
+      background: lightgreen;
+      border: 1px solid activeborder;
+      border-radius: 40px;
+      margin: 0 auto;
+      padding: 0 0 25px 35px;
+}
+.div2{
+    width: 100%;
+    height: 300px;
+    background: lightgreen;
+    border: 1px solid activeborder;
+    border-radius: 45px;
+    margin: 0 auto;
+    padding: 0 0 25px 35px;
+}
+input{
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.leftCol{
+    width:20%;
+    height:auto;
+    float:left;
+}
+.rightCol{
+    width:80%;
+    height:auto;
+    float:left;
+}
+.rightColA{
+    width:20%;
+    height:auto;
+    float:left;
+}
+.rightColB{
+    width:20%;
+    height:auto;
+    float:left;
+}
+.rightColC{
+    width:20%;
+    height:auto;
+    float:left;
+}
+.rightColD{
+    width:20%;
+    height:auto;
+    float:left;
+}
