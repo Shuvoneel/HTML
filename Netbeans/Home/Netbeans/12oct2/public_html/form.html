@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+    <body>
+        <form> 
+            <div id="maindiv"> 
+                <div class="row">
+                    <div class="leftcol"><label>Name:</label></div>
+                    <div class="righttcol"><input type="text" placeholder="Enetr Name"></div>
+                </div>
+                <div class="row">
+                    <div class="leftcol"><label>ID:</label></div>
+                    <div class="righttcol"><input type="number" placeholder="Enetr ID"></div>
+                </div>
+                <div class="row">
+                    <div class="leftcol"><label>Gender:</label></div>
+                    <div class="righttcol">
+                        <input type="radio" name="gender" id="male" placeholder="Enetr Name">Male
+                        <input type="radio" name="gender" id="female" placeholder="Enetr Name">Female
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="leftcol"><label>Completed Module:</label></div>
+                    <div class="righttcol">
+                        <input type="checkbox">One
+                        <input type="checkbox">Two
+                        <input type="checkbox">Three
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="leftcol"><label>Round:</label></div>
+                    <div class="righttcol">
+                        <select>
+                            <option>Select a Round</option>
+                            <option>Round 37</option>
+                            <option>Round 38</option>
+                            <option>Round 39</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="leftcol"><label>Password:</label></div>
+                    <div class="righttcol">
+                        <input type="password">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="leftcol"><label>Re-type Password:</label></div>
+                    <div class="righttcol">
+                        <input type="password">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="leftcol"><label>Comments:</label></div>
+                    <div class="righttcol">
+                        <textarea></textarea>
+                    </div>
+                </div>
+                <button type="reset" value="clear" style="float: right;">Clear</button>
+                <button type="submit" value="submit" style="float: right;" onclick="alert('Thank You !')">Submit</button>
+            </div> 
+        </form>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="form.css"/>
+    </head>
+    <body>
+        <form>
+            <div id="maindiv">
+                <div class="row">
+                    <div class="colleft">
+                        <label>User name:</label>
+                    </div>
+                    <div class="colright">
+                        <input type="text">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="colleft">
+                        <label>Full name:</label>
+                    </div>
+                    <div class="colright">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="colleft">
+                        <label>Password:</label>
+                    </div>
+                    <div class="colright">
+                        <input type="password">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="colleft">
+                        <label>Re-type password:</label>
+                    </div>
+                    <div class="colright">
+                        <input type="password">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="colleft">
+                        <label>Gender:</label>
+                    </div>
+                    <div class="colright">
+                        <input type="radio" name="gender" id="gender" value="male">Male
+                        <input type="radio" name="gender" id="gender" value="female">Female
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="colleft">
+                        <label>Language:</label>
+                    </div>
+                    <div class="colright">
+                        <select>
+                            <option value="English">English</option>
+                            <option value="Bangla" selected="">Bangla</option>
+                            <option value="Arabic">Arabic</option>
+                            <option value="Japanese">Japanese</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="colleft">
+                        <label>Comment:</label>
+                    </div>
+                    <div class="colright">
+                        <textarea></textarea>
+                    </div>
+                </div>
+                        <input type="reset" value="Reset">
+                        <input type="button" value="submit" onclick="alert('Thank You !')">
+            </div>
+        </form>
+    </body>
+</html>

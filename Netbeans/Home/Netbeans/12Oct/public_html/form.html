@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <form>
+            <div id="maindiv">
+                <div class="row">
+                    <div class="colleft"><label>Name:</label></div>
+                    <div class="colright"><input type="text" placeholder="Your Name"></div>
+                </div>
+                <div class="row">
+                    <div class="colleft"><label>ID</label></div>
+                    <div class="colright"><input type="number" placeholder="your ID"></div>
+                </div>
+                <div class="row">
+                    <div class="colleft"><label>Gender</label></div>
+                    <div class="colright">
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">Female
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="colleft"><label>Completed Module</label></div>
+                    <div class="colright">
+                        <input type="checkbox">One
+                        <input type="checkbox">Two
+                        <input type="checkbox">Three
+                        <input type="checkbox">Four
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="colleft"><label>Round</label></div>
+                    <div class="colright">
+                        <select>
+                            <option>Select a round</option>
+                            <option>Round 37</option>
+                            <option>Round 38</option>
+                            <option>Round 39</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="colleft"><label>Comments:</label></div>
+                    <div class="colright"><textarea></textarea></div>
+                </div>
+                <button type="reset" value="clear">Clear</button>
+                <button type="submit" value="submit" onclick="alert('Thank You !')">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>

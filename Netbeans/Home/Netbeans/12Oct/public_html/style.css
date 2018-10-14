@@ -1,0 +1,22 @@
+#maindiv{
+    width: 80%;
+    height: auto;
+    margin:  0 auto;
+    min-height: 500px;
+    border: 1px solid black;
+}
+.row{
+    width: 100%;
+    height: auto;
+    min-height:  50px;
+}
+.colleft{
+    width:  20%;
+    height: auto;
+    float: left;
+}
+.colright{
+    width: 80%;
+    height: auto;
+    float: left;
+}

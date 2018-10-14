@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/form.css"/>
+
+    </head>
+    <body>
+        <form>
+            <div id="maindiv">
+                <div class="div1">
+                    <div class="row">
+                        <div class="colleft"><label>Name:</label></div>
+                        <div class="colright"><input type="text"></div>
+                    </div>
+                    <div class="row">
+                        <div class="colleft"><label>ID:</label></div>
+                        <div class="colright"><input type="text"></div>
+                    </div>
+                    <div class="row">
+                        <div class="colleft"><label>Gender:</label></div>
+                        <div class="colright">
+                            <input type="radio" name="gender" id="male" value="male">Male
+                            <input type="radio" name="gender" id="female" value="female">Female
+                        </div>
+                    </div>
+                </div>
+                <div class="div2">
+                    <div class="row">
+                        <div class="colleft"><label>Completed Module:</label></div>
+                        <div class="colright">
+                            <input type="checkbox">One
+                            <input type="checkbox">Two
+                            <input type="checkbox">Three
+                            <input type="checkbox">Four
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="colleft"><label>Round:</label></div>
+                        <div class="colright">
+                            <select>
+                                <option>Select a Round</option>
+                                <option>Round 39</option>
+                                <option>Round 38</option>
+                                <option>Round 40</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="div3">
+                    <div class="colleft"><label>Comment:</label></div>
+                    <div class="colright"><textarea></textarea></div>
+                </div>
+                <div class="div4">
+                    <input type="reset" class="blue" value="Clear"/>
+                    <input type="button" class="blue" onclick="alert('Thank You !')" value="Submit"/>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

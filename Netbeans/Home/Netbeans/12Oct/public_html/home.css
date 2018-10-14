@@ -1,0 +1,37 @@
+#maindiv{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.r1{
+    width:100%;
+    height: 50px;
+}
+.colleft{
+    width: 20%;
+    height: 50px;
+    float: left;
+}
+.colright{
+    width: 80%;
+    height: 50px;
+    float: left;
+}
+.r2{
+    width:100%;
+    height: 500px;
+    background: lightgray;
+}
+.cola{
+    width: 20%;
+    height: 500px;
+    float: left;
+    background: lavender;
+}
+.colb{
+    width: 80%;
+    height: 500px;
+    float: left;
+    background: beige;
+}

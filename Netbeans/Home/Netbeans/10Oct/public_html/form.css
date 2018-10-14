@@ -1,0 +1,47 @@
+#maindiv{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    height: auto;
+}
+.colleft{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.colright{
+    width: 80%;
+    height: auto;
+    float: left;
+}
+input[type=text]{
+    width: 100%;
+    border-color: orange;
+    border: 2px solid orange;
+}
+input[type=password]{
+    width: 30%;
+    border-color: orange;
+    border: 2px solid orange;
+}
+textarea{
+    width: 30%;
+    border-color: orange;
+    border: 2px solid orange;
+}
+select{
+    width: 15%;
+    border-color: orange;
+    border: 2px solid orange;
+}
+input[type=reset]{
+    border-color: orange;
+    border: 2px solid orange;
+}
+input[type=button]{
+    border-color: orange;
+    border: 2px solid orange;
+}
