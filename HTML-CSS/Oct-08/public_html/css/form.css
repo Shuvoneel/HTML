@@ -1,0 +1,62 @@
+
+#maindiv{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.div1{
+    width: 100%;
+    height: auto;
+    background: lightgreen;
+    margin: 0 auto;
+}
+.div2{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: lightgreen;
+}
+.div3{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: lightgreen;
+}
+.div4{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background: lightgreen;
+}
+input[type=text]{
+    width: 80%;
+}
+textarea{
+    width: 80%;
+    height: 150px;
+}
+select{
+    width: 20%;
+    height: 30px;
+    background: lightgray;
+}
+.blue{
+    background: blue;
+    font-size: 20px;
+    width: 20%;
+}
+.row{
+    width: 100%;
+    height: auto;
+    min-height: 30px;
+}
+.colleft{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.colright{
+    width: 80%;
+    height: auto;
+    float: left;
+}

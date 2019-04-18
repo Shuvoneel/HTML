@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Table</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table{
+                width: 650px;
+                height: 250px;
+                background: black;
+            }
+            tr{
+                background: activeborder;
+            }
+            td{
+                text-align: center;
+            }
+            .due{
+                color: red;
+                text-align: right;
+                font-style: italic;
+            }
+            .head{
+                color: green;
+                font-size: 40px;
+            }
+            .salary{
+                width: 20%;
+                height: 100%;
+            }
+            .pd{
+                width: 20%;
+                font-weight: bold;
+            }
+            .fd{
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <table align="center">
+            <tr>
+                <td class="head" colspan="8">Java Inc.</td>
+            </tr>          
+            <tr>
+                <td rowspan="2">S.L</td>
+                <td class="pd" colspan="2">Personal Details</td>
+                <td class="fd" colspan="4">Financial Details</td>
+                <td rowspan="2">Comments</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>ID</td>
+                <td class="salary">Salary</td>
+                <td>Paid</td>
+                <td>Due</td>
+                <td>Balance(due)</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mr.X</td>
+                <td>123456</td>
+                <td>120000.00</td>
+                <td>100000.00</td>
+                <td>20000.00</td>
+                <td>20000.00</td>
+                <td>Due By October 15,2018</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mr.X</td>
+                <td>123456</td>
+                <td>120000.00</td>
+                <td>100000.00</td>
+                <td>20000.00</td>
+                <td>20000.00</td>
+                <td>Due By October 15,2018</td>
+            </tr>
+            <tr>
+                <td class="due" colspan="6">Total dues:</td>
+                <td>40000.00</td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Table</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table{
+                width: 700px;
+                height: 250px;
+                border: 1px solid black;
+                background: black;
+            }
+            tr{
+                background-color: activeborder;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table align="center">
+            <tr>
+                <td colspan="8" style="color:green;"><h1>Java Inc.</h1></td>
+
+            </tr>
+            <tr>
+                <td rowspan="2">S.L</td>
+                <td colspan="2"><h1>Personal Details</h1></td>
+                <td colspan="4"><h1>Financial Details</h1></td>
+                <td rowspan="2">Comments</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>ID</td>
+                <td>Salary</td>
+                <td>Paid</td>
+                <td>Due</td>
+                <td>Balance (Due)</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mr. X</td>
+                <td>123456</td>
+                <td>120000</td>
+                <td>130000</td>
+                <td>140000</td>
+                <td>150000</td>
+                <td>Due by October 15, 2018</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mr. Y</td>
+                <td>123457</td>
+                <td>120000</td>
+                <td>130000</td>
+                <td>140000</td>
+                <td>150000</td>
+                <td>Due by October 15, 2018</td>
+            </tr>
+            <tr>
+                <td colspan="6" style="color:red; font-weight: bold; text-align: right; font-style: italic;">Total Dues:</td>
+                <td colspan="2">40000</td>
+            </tr>
+        </table>
+    </body>
+</html>

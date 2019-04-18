@@ -1,0 +1,23 @@
+#maindiv{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    height: auto;
+    min-height: 30px;
+}
+.left{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.right{
+    width: 80%;
+    height: auto;
+    float: left;
+}
+a{
+    text-decoration: none;
+}

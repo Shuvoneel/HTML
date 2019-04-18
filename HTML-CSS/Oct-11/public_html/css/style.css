@@ -1,0 +1,51 @@
+#maindiv{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    background: activeborder;
+    border: 1px solid black;
+}
+.row1{
+    width: 100%;
+    height: 50px;
+    background: wheat;
+}
+.col11{
+    width: 20%;
+    height: 50px;
+    float: left;
+}
+.col12{
+    width: 80%;
+    height: 50px;
+    float: left;
+}
+.row2{
+    width: 100%;
+    height: 500px;
+}
+.col21{
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+.col22{
+    width: 80%;
+    height: 500px;
+    float: left;
+}
+.row3{
+    width: 100%;
+    height: 50px;
+    background: lightblue;
+}
+.col31{
+    width: 20%;
+    height: 50px;
+    float: left;
+}
+.col32{
+    width: 80%;
+    height: 50px;
+    float: left;
+}

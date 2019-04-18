@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="row">
+            <div class="left"><label>Name:</label></div>
+            <div class="right"><input type="text" placeholder="Your Name"></div>
+        </div>
+        <div class="row">
+            <div class="left"><label>ID:</label></div>
+            <div class="right"><input type="text" placeholder="Your ID"></div>
+        </div>
+        <div class="row">
+            <div class="left"><label>Gender:</label></div>
+            <div class="right">
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+            </div>
+        </div>
+        <div class="row">
+            <div class="left"><label>Completed Module:</label></div>
+            <div class="right">
+                <input type="checkbox">One
+                <input type="checkbox">Two
+                <input type="checkbox">Three
+                <input type="checkbox">Four
+            </div>
+        </div>
+        <div class="row">
+            <div class="left"><label>Round:</label></div>
+            <div class="right">
+                <select>
+                    <option>Select a Round</option>
+                    <option>Round 37</option>
+                    <option>Round 38</option>
+                    <option>Round 39</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left"><label>Comments:</label></div>
+            <div class="right"><textarea></textarea></div>
+            </div>
+        <div class="row">
+                <div class="left"><label>.</label></div>
+                <div class="right">
+                    <input type="reset" value="reset">
+            <input type="submit" value="submit" onclick="alert('Thank You !!')">
+                </div>
+         </div>
+    </body>
+</html>
